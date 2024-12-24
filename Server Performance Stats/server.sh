@@ -40,3 +40,5 @@ echo "################################"
 echo "# Top 5 Processes by CPU Usage #"
 echo "################################"
 ps aux --sort -%cpu | head -n 6 | awk '{print $1 "\t" $2 "\t" $3 "\t" $11}'
+
+$SHELL
